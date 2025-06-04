@@ -1,12 +1,53 @@
-h1 {
+*{  /* Selector univesal, siempre se pone al inicio*/
+    padding: 0;
+    margin: 0;
+    margin-bottom: 50px;
+
+}
+
+h1 /*Es una etiqueta de bloque, porque ocupa de punta a punta*/{
     text-decoration: underline;
     font-size: 45px;
     color: aquamarine;
+    background-color:blueviolet; /*Pone color a todo el largo*/
+    width: fit-content; /*Ajusta el ancho al contenido*/
 }
 img {
     border: 3px solid black;
 }
-p{
+p /*Etiqueta en bloque*/{
+    background-color: blue;
+    background-size: contain;
     font-size: 20px;
     color: brown;
+}
+a /*etiqueta en linea, ocupa su espacio nomas*/{
+    background-color: red;
+    width: 600px;
+}
+/* .tarjeta {
+    background-color: green;
+    width: 200px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+    margin-bottom: 40px;
+} */
+
+.boton {
+    background-color: green; /*Color de fondo*/
+    color: white; /*Color del texto*/
+    padding: 10px 20px;
+    border: none; /*Quita el borde por defecto*/
+    border-radius: 10px; /*Borde redondeado*/
+    cursor: pointer; /*Pone el cursor en forma de mano al pasar por encima*/
+    display: block; 
+    margin: auto; 
+    font-size: 16px;
+    
+}
+
+.boton:hover{
+    background-color: rgba(0, 0,0, 0.8);
+
 }
